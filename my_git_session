@@ -1,0 +1,57 @@
+Script started on 2026-01-05 06:02:40+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mgit --version[27mgit --version
+[?2004lgit version 2.43.0
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mgit clone https://github.com/username/repo.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/username/repo.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit@github.com:yaswanth-TA/assignment_1.1.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:yaswanth-TA/assignment_1.1.git
+[?2004lCloning into 'assignment_1.1'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mcd repo[27mcd repo[K[K[K[K[K assignmrn[K[K[K[Knment_1.1
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit pull[27mgit pull
+[?2004lAlready up to date.
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit checkout -b new_branch[27mgit checkout -b new_branch
+[?2004lSwitched to a new branch 'new_branch'
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit branch[27mgit branch
+[?2004l[?1h=  main[m[m
+* [32mnew_branch[m[m
+[K[?1l>[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mmkdir dir_name[27mmkdir dir_name[K[K[K[K[K[K[K[Ktest_dir
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mtouch dir_name/file_name.py[27mtouch dir_name/file_name.py[C[1P/file_name.py[1P/file_name.py[1P/file_name.py[1P/file_name.py[1P/file_name.py[1P/file_name.py[1P/file_name.py[1P/file_name.pyt/file_name.pye/file_name.pys/file_name.pyt/file_name.py_/file_name.pyd/file_name.pyi/file_name.pyr/file_name.py[C[C[C[C[C[C[C[C[C[C[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.py[1P.pyt.pye.pys.pyt.py_.pyf.pyi.pyl.pye.py[C[C[C
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mecho 'print("Hello Git")' >> dir_name/file_name.py[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho 'print("Hello Git")' >> dir_name/file_name.py[1P.py[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m test_dir/test_file.py[27m test_dir/test_file.py
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit status[27mgit status
+[?2004lOn branch new_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest_dir/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit add dir_name/file_name.py[27mgit add dir_name/file_name.py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mtest_dir/test_file.py[27mtest_dir/test_file.py
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit status[27mgit status
+[?2004lOn branch new_branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   test_dir/test_file.py[m
+
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit commit -m "Added file_name.py for testing Git commands"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Added file_name.py for testing Git commands"[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@t[1@e[1@s[1@t[1@_[1@f[1@i[1@l[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[new_branch 4cd9219] Added test_file.py for testing Git commands
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test_dir/test_file.py
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ [7mgit push origin new_branch[27mgit push origin new_branch
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 14 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 381 bytes | 381.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'new_branch' on GitHub by visiting:[K
+remote:      https://github.com/yaswanth-TA/assignment_1.1/pull/new/new_branch[K
+remote: 
+To github.com:yaswanth-TA/assignment_1.1.git
+ * [new branch]      new_branch -> new_branch
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/assignment_1.1[01;32myaswanth@TIGER07351[00m:[01;34m~/assignment_1.1[00m$ exit
+[?2004lexit
+
+Script done on 2026-01-05 06:08:46+00:00 [COMMAND_EXIT_CODE="0"]

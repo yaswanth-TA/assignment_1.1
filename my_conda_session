@@ -1,0 +1,68 @@
+Script started on 2026-01-05 05:46:46+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ conda --version
+[?2004lconda 25.11.0
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ conda --info
+[?2004lusage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: the following arguments are required: COMMAND
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mconda create --name <my-env>[27mconda create --name <my-env>[K[K[K[K[K[K[K[K[K[Ke test_env
+[?2004lRetrieving notices: - \ | done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.11.0
+    latest version: 25.11.1
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/yaswanth/miniforge3/envs/test_env
+
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: | done
+Verifying transaction: - \ done
+Executing transaction: / done
+#
+# To activate this environment, use
+#
+#     $ conda activate test_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ conda env list
+[?2004l
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                 *   /home/yaswanth/miniforge3
+mle-dev                  /home/yaswanth/miniforge3/envs/mle-dev
+test_env                 /home/yaswanth/miniforge3/envs/test_env
+
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7m conda activate test_env[27m conda activate test_env
+[?2004l[?2004h(test_env) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ conda list
+[?2004l# packages in environment at /home/yaswanth/miniforge3/envs/test_env:
+#
+# Name                     Version          Build            Channel
+[?2004h(test_env) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mconda env export > environment.yml[27mconda env export > environment.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.yml[1P.ymlt.ymle.ymls.ymlt.yml_.ymle.ymln.ymlv.yml[C[C[C[C
+[?2004l[?2004h(test_env) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ec[Kxit
+[?2004lexit
+
+Script done on 2026-01-05 05:52:20+00:00 [COMMAND_EXIT_CODE="0"]

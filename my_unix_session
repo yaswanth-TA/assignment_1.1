@@ -1,0 +1,184 @@
+Script started on 2026-01-05 05:26:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ la[Ks
+[?2004l[0m[01;32mMiniforge3-Linux-x86_64.sh[0m  [01;34mminiforge3[0m  [01;34mmle-training-[0m  my_unix_session
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ pwd
+[?2004l/home/yaswanth
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ls -F
+[?2004l[0m[01;32mMiniforge3-Linux-x86_64.sh[0m*  [01;34mminiforge3[0m/  [01;34mmle-training-[0m/  my_unix_session
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ la[Ks -help
+[?2004lls: invalid option -- 'e'
+Try 'ls --help' for more information.
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ls --help
+[?2004lUsage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                             e.g., '--block-size=M'; see SIZE format below
+
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                             change of file status information);
+                             with -l: show ctime and sort by name;
+                             otherwise: sort by ctime, newest first
+
+  -C                         list entries by columns
+      --color[=WHEN]         color the output WHEN; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         list all entries in directory order
+  -F, --classify[=WHEN]      append indicator (one of */=>@|) to entries WHEN
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                             single-column -1, verbose -l, vertical -C
+
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                             can be augmented with a --sort option, but any
+                             use of --sort=none (-U) disables grouping
+
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                             that points to a directory
+
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                             (overridden by -a or -A)
+
+      --hyperlink[=WHEN]     hyperlink file names WHEN
+      --indicator-style=WORD
+                             append indicator with style WORD to entry names:
+                             none (default), slash (-p),
+                             file-type (--file-type), classify (-F)
+
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for file system usage;
+                             used only with -s and per directory totals
+
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                             link, show information for the file the link
+                             references rather than for the link itself
+
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                             unless program is 'ls' and output is a terminal)
+
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                             literal, locale, shell, shell-always,
+                             shell-escape, shell-escape-always, c, escape
+                             (overrides QUOTING_STYLE environment variable)
+
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                             time (-t), version (-v), extension (-X), width
+
+      --time=WORD            select which timestamp used to display or sort;
+                               access time (-u): atime, access, use;
+                               metadata change time (-c): ctime, status;
+                               modified time (default): mtime, modification;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+
+      --time-style=TIME_STYLE
+                             time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                             with -l: show access time and sort by name;
+                             otherwise: sort by access time, newest first
+
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+      --zero                 end each output line with NUL, not newline
+  -1                         list one file per line
+      --help        display this help and exit
+      --version     output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y,R,Q (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+The WHEN argument defaults to 'always' and can also be 'auto' or 'never'.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors(1) command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ls -F [7m mle-training-[27m mle-training-
+[?2004lREADME.md  [0m[01;34mdatasets[0m/  env.yml  [00;90menv.yml.bak[0m  nonstandardcode.py
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ cd [7m mle-training-[27m mle-training-
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/mle-training-[01;32myaswanth@TIGER07351[00m:[01;34m~/mle-training-[00m$ cd ..
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mmkdir thesis[27mmkdir thesis
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mls -F thesis[27mls -F thesis
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mmkdir -p ../project/data ../project/results[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p ../project/data ../project/results
+[?2004lmkdir: cannot create directory ‘../project’: Permission denied
+mkdir: cannot create directory ‘../project’: Permission denied
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mls -FR ../project[27mls -FR ../project
+[?2004lls: cannot access '../project': No such file or directory
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mnano draft.txt[27mnano draft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                            draft.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ [7mls thesis[27mls thesis
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;32mMiniforge3-Linux-x86_64.sh[0m  [01;34mminiforge3[0m  [01;34mmle-training-[0m  my_unix_session  [01;34mthesis[0m
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ cd thesis
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/thesis[01;32myaswanth@TIGER07351[00m:[01;34m~/thesis[00m$ ls
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/thesis[01;32myaswanth@TIGER07351[00m:[01;34m~/thesis[00m$ [7mnano draft.txt[27mnano draft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                            draft.txt                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;69H(B[0;7m*[119G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: draft.txt(B[m[?12l[?25h[?25l(B[0;7mm(B[m[?12l[?25h[?25l(B[0;7m-(B[m[?12l[?25h[?25l(B[0;7md(B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME? [29d Y(B[m Yes[K[30d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[28;33H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;57H(B[0;7mdraft.txtm-d [119G(B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~/thesis[01;32myaswanth@TIGER07351[00m:[01;34m~/thesis[00m$ [7mmv thesis/draft.txt[27mmv thesis/draft.txt
+[?2004lmv: missing destination file operand after 'thesis/draft.txt'
+Try 'mv --help' for more information.
+[?2004h(base) ]0;yaswanth@TIGER07351: ~/thesis[01;32myaswanth@TIGER07351[00m:[01;34m~/thesis[00m$ cd ..
+[?2004l[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ cd ..mv thesis/draft.txt
+[?2004lmv: missing destination file operand after 'thesis/draft.txt'
+Try 'mv --help' for more information.
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ls thesis
+[?2004ldraft.txtm-d
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ ls thesismv thesis/draft.txtm-d
+[?2004lmv: missing destination file operand after 'thesis/draft.txtm-d'
+Try 'mv --help' for more information.
+[?2004h(base) ]0;yaswanth@TIGER07351: ~[01;32myaswanth@TIGER07351[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-01-05 05:38:06+00:00 [COMMAND_EXIT_CODE="1"]
